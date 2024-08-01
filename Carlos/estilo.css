@@ -1,0 +1,103 @@
+/* Reseteo básico y fuente */
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif; /* Usa 'Roboto Slab' según tu ejemplo anterior */
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header */
+.contenedor-header {
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.contenedor-header header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.contenedor-header header .logo a {
+    font-family: 'Righteous', sans-serif;
+    font-size: 36px;
+    color: #f5f5f0;
+    text-decoration: none;
+}
+
+.contenedor-header header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.contenedor-header header nav ul li a {
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.contenedor-header header nav ul li a:hover {
+    color: #c40ee9;
+}
+
+/* Formulario personalizado */
+form {
+    background: #1e2326;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form h1 {
+    font-family: 'Righteous', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+form .form-group label {
+    color: #c40ee9;
+}
+
+form .form-control {
+    background-color: #252A2E;
+    color: #fff;
+    border: 1px solid #c40ee9;
+}
+
+form .form-control:focus {
+    border-color: #c40ee9;
+    box-shadow: 0 0 0 0.2rem rgba(196, 14, 233, 0.25);
+}
+
+form .btn-primary {
+    background-color: #c40ee9;
+    border-color: #c40ee9;
+}
+
+form .btn-primary:hover {
+    background-color: #a30aab;
+    border-color: #a30aab;
+}
+
+/* Ajuste de la presentación de los campos del formulario */
+.form-check-label {
+    color: #fff;
+}
+
+.form-check-input:checked {
+    background-color: #c40ee9;
+    border-color: #c40ee9;
+}

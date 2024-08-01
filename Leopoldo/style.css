@@ -1,0 +1,13 @@
+body {
+    background-color: #ADD8E6; 
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: white; /* Color de fondo blanco para el formulario */
+    padding: 20px; /* Espaciado interno del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para el contenedor */
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centrar el contenedor horizontalmente */
+}
